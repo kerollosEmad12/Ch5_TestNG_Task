@@ -27,7 +27,7 @@ public class C00_Base {
 
     @AfterMethod
     public void quitDriver () throws InterruptedException {
-        Thread.sleep(10);
+        Thread.sleep(3000);
         driver.quit();
 
     }
